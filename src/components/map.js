@@ -16,7 +16,8 @@ function MapComponent({ handleLocationChange, locationName_Change, location_data
   const [markerLocation, setMarkerLocation] = useState(null);
 
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'AIzaSyDhl39u_5WKV3Zlm32QG6ljnQlgzFzsC2g',
+    googleMapsApiKey: 'API Key
+    ',
   });
 
   // 클릭 이벤트
